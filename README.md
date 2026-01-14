@@ -5,4 +5,4 @@
 ## Установка
 
 ```bash
-pip install latexgen-borodin
+pip install latexgen-hw-itmo

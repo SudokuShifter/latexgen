@@ -4,11 +4,11 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 version = {}
-with open("latexgen_borodin/__version__.py", "r", encoding="utf-8") as fh:
+with open("latexgen/__version__.py", "r", encoding="utf-8") as fh:
     exec(fh.read(), version)
 
 setup(
-    name="latexgen_borodin",
+    name="latexgen-hw-itmo",
     version=version["__version__"],
     author="sudokushifter",
     author_email="zanid227@yandex.ru",
